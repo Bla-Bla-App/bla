@@ -11,10 +11,10 @@ const ProfileScreen = ({ navigation }) => {
           style={styles.avatar}
         />
         <TouchableOpacity onPress={() => navigation.navigate('EditProfile')}>
-          <Text style={styles.name}>Ismail</Text>
+          <Text style={styles.name}>Peter</Text>
         </TouchableOpacity>
         <Text style={styles.phone}>60000000023</Text>
-        <Text style={styles.rating}>⭐ 5.00 My Rating</Text>
+        <Text style={styles.rating}> My Rating  5.00 ⭐</Text>
       </View>
 
       <View style={styles.button}>
